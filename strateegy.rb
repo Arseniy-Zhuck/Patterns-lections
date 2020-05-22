@@ -55,7 +55,7 @@ class Op2Strategy2 < Op2Behavior
 	def op2
 		super
 		wzhuh
-		puts "Strategy number 1"
+		puts "Strategy number 2"
 		finish
 	end
 end

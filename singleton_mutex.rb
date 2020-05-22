@@ -17,7 +17,7 @@ class Singleton
     return @instance if @instance
 
     @instance_mutex.synchronize do
-      @instance ||= new(value)
+      @instance = @instance || new(value)
     end
 
     @instance
